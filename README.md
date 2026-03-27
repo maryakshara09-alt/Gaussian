@@ -22,7 +22,9 @@ Step 5: Display the solutions of variables.
 
 /*
 Program to find the solution of a matrix using Gaussian Elimination.
+
 Developed by: MARY AKSHARA S
+
 RegisterNumber:212225230169 
 */
 ```
