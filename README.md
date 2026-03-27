@@ -19,12 +19,13 @@ Step 4: Perform back substitution to calculate the values of unknowns x[i].
 Step 5: Display the solutions of variables.
 
 ## Program:
-```
+
 /*
 Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: MARY AKSHARA S
 RegisterNumber:212225230169 
 */
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -50,7 +51,7 @@ for i in range(n-2,-1,-1 ):
     x[i]=x[i]/a[i][i]
 for i in range(n):
     print("X%d = %0.2f"%(i,x[i]),end=" ")
-    ```
+ ```   
 
 ## Output:
 <img width="1914" height="1079" alt="Screenshot 2026-03-27 183149" src="https://github.com/user-attachments/assets/31c265f2-29fe-43d2-ac07-62575cf8ea2d" />
